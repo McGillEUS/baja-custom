@@ -1,0 +1,78 @@
+/* navbar */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* navbar ends */
+
+/* Image-slider */
+
+.image-slider {
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+/* Image-Slider ends */
+
+
+/* What we do */
+.what-we-do {
+    margin-top: 20px;
+}
+
+.header {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.container-eventType {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.static,
+.dynamic {
+    width: 50%;
+}
+
+.static-container,
+.dynamic-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+
+
+}
+
+.static {
+    background-color: aqua;
+}
+
+.dynamic {
+    background-color: blanchedalmond;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+/* What we do end */
